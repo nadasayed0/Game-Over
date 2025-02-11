@@ -1,0 +1,78 @@
+
+body{
+    font-family: "Comfortaa", cursive;
+    min-height: 100%;
+    min-width: 100%;
+    background-color:#272B30;
+    color: #fff;
+}
+header {
+    max-height: 30vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover
+
+}
+
+/* .my-nav{
+    padding: 10rem 15px !important;
+
+} */
+
+header img{
+    max-height: 30vh;
+
+}
+
+
+.my img{
+    width: 25%;
+}
+
+
+.my h5{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Comfortaa", serif;
+}
+
+
+.my-li ul li a{
+    font-size:12.25px !important ;
+    font-weight: 400 !important;
+    font-family: "Comfortaa", serif;
+    color: #fff;
+}
+
+.navbar .my-color{
+    background-color: #3A497B ;
+    color: #fff;
+    border: 2px solid #3A497B;
+    border-radius: 20px;
+}
+
+
+
+
+.card{
+    background-color:#272B30  ;
+    color: #fff;
+}
+
+
+
+.card .card-footer .my-back1{
+    box-shadow:  0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px 15px;
+}
+
+
+.card .card-footer .my-back2{
+    box-shadow:  0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px 15px;
+}
+
+
+
+
+

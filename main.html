@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Over</title>
+    <link href="./images/logo-sm.png" class="fav-icon" rel="icon" type="image/png" />
+
+    <link rel="stylesheet" href="./Css/all.min.css" />
+    <link rel="stylesheet" href="./Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Css/style.css" />
+  </head>
+  <body>
+    <span class="position-fixed bottom-0 end-0 m-3 z-3">
+      <i role="button" id="mode" class="fa-regular fa-sun fa-xl p-3"></i>
+    </span>
+
+    <section class="games" id="games">
+      <header class="header"></header>
+
+      <nav class="navbar navbar-expand-lg w-75 mx-auto mt-1">
+        <div class="container">
+          <h5 class="navbar-brand mb-0 text-uppercase">
+            <img
+              src="./images/logo-sm.png"
+              alt="logo photo"
+              style="max-width: 40px"
+            />
+            GameOver
+          </h5>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 menu">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-uppercase"
+                  aria-current="page"
+                  href="#"
+                  data-category="mmorpg"
+                  >mmorpg</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase"
+                  aria-current="page"
+                  href="#"
+                  data-category="shooter"
+                  >shooter</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase"
+                  aria-current="page"
+                  href="#"
+                  data-category="sailing"
+                  >sailing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase"
+                  aria-current="page"
+                  href="#"
+                  data-category="permadeath"
+                  >permadeath</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase"
+                  aria-current="page"
+                  href="#"
+                  data-category="superhero"
+                  >superhero</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase"
+                  aria-current="page"
+                  href="#"
+                  data-category="pixel"
+                  >pixel</a
+                >
+              </li>
+            </ul>
+
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <span
+                  id="logout"
+                  role="button"
+                  class="nav-link1 text-white fw-bolder fs-6  "
+                  >LogOut</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="container my-3">
+        <section class="position-relative">
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4"
+            id="gameData"
+          ></div>
+        </section>
+      </main>
+    </section>
+
+    <section class="details d-none" id="details">
+      <div class="container">
+        <header class="hstack justify-content-between">
+          <h1 class="text-center h3 py-4">Details Game</h1>
+          <button class="btn-close btn-close-white" id="btnClose"></button>
+        </header>
+        <div class="row g-4" id="detailsContent"></div>
+      </div>
+    </section>
+
+    <div class="loading d-none" id="loader">
+      <div class="loader"></div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

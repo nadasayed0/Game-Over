@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Over</title>
+    <link href="./images/logo-sm.png" class="fav-icon" rel="icon" type="image/png" />
+    <link rel="stylesheet" href="./Css/all.min.css" />
+    <link rel="stylesheet" href="./Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Css/style.css" />
+  </head>
+  <body>
+    <span class="position-fixed bottom-0 end-0 m-3 z-3">
+      <i role="button" id="mode" class="fa-regular fa-sun fa-xl p-3"></i>
+    </span>
+
+    <main class="container login min-vh-100 hstack">
+      <section class="login-area shadow w-100 rounded overflow-hidden">
+        <div class="row">
+          <div class="col-lg-5 d-none d-md-block">
+            <div class="image"></div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="p-4">
+              <header class="text-center">
+                <img src="./images/logo-sm.png" alt="logo game over" />
+                <h1>LogIn to Game Over</h1>
+              </header>
+
+              <form class="row g-3 my-4">
+                <div class="col-12">
+                  <div class="form-data">
+                    <input
+                      type="email"
+                      id="user-email"
+                      class="form-control bg-dark border-0 text-white"
+                      placeholder="Email Address"
+                    />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-data">
+                    <input
+                      type="password"
+                      id="user-password"
+                      class="form-control bg-dark border-0 text-white"
+                      placeholder="Password"
+                    />
+                  </div>
+                </div>
+
+                <p id="required" class="text-center d-none">
+                  <span class="text-danger fw-medium m-3">
+                    All inputs is required</span
+                  >
+                </p>
+
+                <p id="incorrect" class="text-center d-none">
+                  <span class="text-danger fw-medium m-3">
+                    incorrect email or password</span
+                  >
+                </p>
+                <div class="col-12">
+                  <button
+                    type="submit"
+                    class="btn w-100 bg-dark text-white"
+                    id="login"
+                  >
+                    LogIn
+                  </button>
+                </div>
+              </form>
+
+              <footer>
+                <p class="text-center small">
+                  Not a member yet?
+                  <a
+                    href="#"
+                    id="create-Account"
+                    class="link-secondary fw-bold fs-6 text-decoration-none"
+                    role="button"
+                    >Create Account <i class="fa-solid fa-angle-right"></i
+                  ></a>
+                </p>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
